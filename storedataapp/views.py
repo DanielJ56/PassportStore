@@ -20,11 +20,11 @@ def store_data(request):
 
 
         entry_pronoun_id = request_json["pronoun_id"]
-        entry_first_name = request_json["first_name"]
+        entry_first = request_json["first_name"]
 
         entry_last_name = request_json["last_name"]
-        entry_birthdate = request_json["birthdate"]
-        entry_nationality = request_json["nationality"]
+        entry_birth = request_json["birthdate"]
+        entry_nat = request_json["nationality"]
 
 
 
